@@ -1,7 +1,8 @@
 print("Lista zakupów")
 grocery_list = {
     "piekarnia": ["chleb", "bułki", "pączek"], 
-    "warzywniak": ["marchew", "seler", "rukola"]
+    "warzywniak": ["marchew", "seler", "rukola"],
+    "mięsny": ["wieprzowina", "wołowina", "kurczak"]
 }
 
 grocery_list["warzywniak"].append("pietruszka")
