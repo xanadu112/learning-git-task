@@ -4,3 +4,6 @@ grocery_list = {
     "warzywniak": ["marchew", "seler", "rukola"]
 }
 
+for store, product in grocery_list.items():
+    print(f"Idę do {store} i kupuję tam {product}")
+
