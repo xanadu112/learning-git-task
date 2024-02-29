@@ -4,6 +4,9 @@ grocery_list = {
     "warzywniak": ["marchew", "seler", "rukola"]
 }
 
+grocery_list["warzywniak"].append("pietruszka")
+print(grocery_list)
+
 l = 0
 for store, product in grocery_list.items():
     l = l + len(product)
